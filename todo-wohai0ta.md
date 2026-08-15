@@ -10,5 +10,5 @@
 - [x] Validate the corrected page in the browser and through automated checks
 - [x] Publish the reviewed visual-update version
 - [x] Verify the selected GitHub repository and local source state
-- [ ] Commit and push the current published project source to GitHub
-- [ ] Confirm the GitHub repository contains the new commit
+- [x] Commit and push the current published project source to GitHub
+- [x] Confirm the GitHub repository contains the new commit
