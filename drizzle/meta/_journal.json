@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786796302720,
+      "tag": "0000_burly_doctor_spectrum",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786796568965,
+      "tag": "0001_plain_maggott",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786796773827,
+      "tag": "0002_talented_toxin",
+      "breakpoints": true
+    }
+  ]
+}

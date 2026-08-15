@@ -1,0 +1,24 @@
+# Project TODO
+
+- [x] Complete shared catalog, modifier, and cart domain models in the database schema.
+- [x] Complete Stripe payment lifecycle handling for authorization, capture, failure recovery, retries, and refunds.
+- [x] Implement server-authoritative price, tax, discount, delivery-fee, and availability recalculation.
+- [x] Harden idempotent order creation and complete durable order-status history across payment and refund outcomes.
+- [x] Add DB-backed cart tables and normalized product option and modifier tables, then migrate menu configuration from the in-code starter catalog.
+- [x] Handle Stripe payment failure, cancellation, capture, and refund webhook events with persisted order and payment updates.
+- [x] Implement conflict-safe checkout retry that returns a reusable payment path without duplicate fulfillable orders.
+- [x] Build public storefront navigation, available menu categories, product cards, and availability states.
+- [x] Build pizza customization with required size, crust, sauce, cheese, topping, price-update, and preparation-note behavior.
+- [x] Build persistent cart UI with configuration summaries, quantity controls, promotion code support, and transparent totals.
+- [x] Build delivery and pickup checkout, guest ordering, address validation, authenticated customer histories, payment confirmation, and order receipts.
+- [x] Build plain-language customer order tracking using exactly confirmed, preparing, ready, out for delivery, completed, and cancelled labels.
+- [x] Build a store-operations dashboard with urgency-sorted active orders, order detail, and validated status-transition controls.
+- [x] Build manager controls for catalog prices, availability, store hours, fulfillment modes, delivery zones, fees, and promotions.
+- [x] Build an administrative search, operational reporting, refund initiation with required reason, and audit-log interface.
+- [x] Implement provider-gated transactional notification workflows for confirmation, delay, ready, out for delivery, completion, and cancellation; provider validation is required before outbound email is activated.
+- [x] Add a customer-facing in-app notification center that surfaces order-status messages when outbound delivery is unavailable.
+- [x] Add a distinct delayed-order message and route every operational delay action through the notification workflow.
+- [x] Expose durable in-app status messages to both signed-in customers and guests through the order tracking route.
+- [x] Apply the cinematic dark teal-and-burnt-orange visual system with bold centered white typography and cyan/orange geometric accents.
+- [x] Add automated tests covering money calculations, idempotency, status transitions, and refund validation.
+- [x] Verify desktop and mobile interaction flows, resolve runtime errors, and save a delivery checkpoint.
